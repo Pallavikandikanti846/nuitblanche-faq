@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Phone frame effect */
+.phone-frame {
+    background: #000;
+    padding: 12px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 390px; /* iPhone-like size */
+    margin: auto;
+}
+
+.container {
+    background: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Section styles */
+.map-section, .faq-section, .contact-section {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.map-placeholder img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.faq-section h2 {
+    margin-bottom: 12px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 12px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 0 12px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Bottom nav with icons */
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-nav i {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
