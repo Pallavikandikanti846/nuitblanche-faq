@@ -24,6 +24,4 @@ This FAQ feature is developed for the Nuit Blanche Help page to provide users wi
 ## Credits
 Developed with the creative coding vibes and assistance from ChatGPT — making code easier and better.
 
----
 
-Feel free to customize the README further based on your exact setup!
